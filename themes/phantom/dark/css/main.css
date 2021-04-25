@@ -338,12 +338,25 @@ textarea, label {
   background-color: #fff;
 }
 
-.page-nav {
-  bottom: 40px;
-  left: 0;
-  position: absolute;
-  right: 0;
+@media only screen and (min-width: 1020px) and (max-width: 2560px) {
+  .page-nav {
+    bottom: 40px;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
 }
+
+@media only screen and (max-width: 1019px) {
+  .page-nav {
+    bottom: -30px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    padding-bottom: 20px;
+  }
+}
+
 .page-nav span {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1063,7 +1076,7 @@ textarea, label {
   text-align: center;
 }
 .contact-block .media-body {
-  padding-left: 30px;
+  padding-left: 0px;
 }
 .contact-block h4 {
   font-size: 18px;
@@ -1591,5 +1604,89 @@ textarea, label {
 
   .contact-form .input-field.name {
     margin-right: 0;
+  }
+}
+
+div#get{
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 100px !important;
+}
+
+.media-body i{
+  font-size: 40pt !important;
+  margin-bottom: 15px !important;
+}
+
+div#contact{
+  margin-top: 100px !important;
+}
+
+div#contact2{
+  margin-top: 0px !important;
+  margin-bottom: 100px !important;
+}
+
+div#awardlast{
+  margin-bottom: 10% !important;
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1400px) {
+  div#service1{
+    width: 70% !important;
+    margin-bottom: 10% !important;
+    margin-left: 70% !important;
+  }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 2560px) {
+  div#service1{
+    width: 70% !important;
+    margin-bottom: 10% !important;
+    margin-left: 15% !important;
+  }
+}
+
+@media only screen and (max-width: 1019px) {
+  div#service1{
+    width: 70% !important;
+    margin-bottom: 10% !important;
+    margin-left: 15% !important;
+  }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1400px) {
+  div#service2{
+    width: 70% !important;
+    margin-left: 125% !important;
+    margin-bottom: 10% !important;
+  }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 2560px) {
+  div#service2{
+    width: 70% !important;
+    margin-left: 70% !important;
+    margin-bottom: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 1019px) {
+  div#service2{
+    width: 70% !important;
+    margin-left: 15% !important;
+    margin-bottom: 10% !important;
+  }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 2560px) {
+  div#fix{
+    margin-left: 2% !important;
+  }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1400px) {
+  div#fix{
+    margin-left: 2% !important;
   }
 }
