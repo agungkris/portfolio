@@ -1694,6 +1694,7 @@ div#awardlast{
 .skill-content img{
   width: 100%;
   height: auto;
+  max-width: 80px;
 }
 .skill-content{
   text-align: center;
