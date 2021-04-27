@@ -639,7 +639,7 @@ textarea, label {
   letter-spacing: 1px;
 }
 .progress .skill-name {
-  border-right: 2px solid #2e333a;
+  /* border-right: 2px solid #2e333a; */
   min-width: 160px;
   text-align: center;
   text-transform: uppercase;
@@ -1689,4 +1689,13 @@ div#awardlast{
   div#fix{
     margin-left: 2% !important;
   }
+}
+
+.skill-content img{
+  width: 100%;
+  height: auto;
+}
+.skill-content{
+  text-align: center;
+  margin-bottom: 15px;
 }
